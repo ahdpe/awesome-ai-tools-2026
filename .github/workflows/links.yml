@@ -1,0 +1,33 @@
+name: Check links
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "data/tools.json"
+      - ".lycheeignore"
+      - ".github/workflows/links.yml"
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --timeout 20
+            --retry-wait-time 2
+            './**/*.md'
+          fail: true
+          jobSummary: true

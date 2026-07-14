@@ -1,0 +1,81 @@
+name: Suggest a tool
+description: Propose one useful AI tool for the curated catalog
+title: "[Tool]: "
+labels:
+  - suggestion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read `CONTRIBUTING.md` first. Submitting a tool does not guarantee inclusion.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: Example AI
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: No affiliate, campaign, or shortened links.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Assistants & Research
+        - Coding Agents & Developer Tools
+        - Agent Frameworks & Automation
+        - Local AI & Inference
+        - RAG, Search & Knowledge
+        - Evaluation & Observability
+        - Image & Design
+        - Video & Avatars
+        - Voice, Audio & Music
+        - Model APIs & Platforms
+        - New category needed
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What practical problem does it solve?
+      description: Use neutral facts. Two or three sentences are enough.
+    validations:
+      required: true
+  - type: textarea
+    id: distinction
+    attributes:
+      label: Why is it distinct from tools already listed?
+    validations:
+      required: true
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this tool?
+      options:
+        - No
+        - Yes - creator, employee, investor, or paid representative
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting links
+      description: Official documentation, pricing, license, API, or source links that support the proposed labels.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I used the official URL with no affiliate or tracking parameters.
+          required: true
+        - label: I searched the catalog and existing issues for duplicates.
+          required: true
+        - label: I disclosed any affiliation above.
+          required: true

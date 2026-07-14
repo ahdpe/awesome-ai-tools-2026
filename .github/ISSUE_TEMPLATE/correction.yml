@@ -1,0 +1,33 @@
+name: Catalog correction
+description: Report outdated metadata, a broken link, or a discontinued tool
+title: "[Correction]: "
+labels:
+  - correction
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or section
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What changed?
+      options:
+        - Broken or redirected link
+        - Pricing or access
+        - License or source availability
+        - Local execution or API support
+        - Product discontinued or abandoned
+        - Description is inaccurate
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the correction and include an official source when possible.
+    validations:
+      required: true
