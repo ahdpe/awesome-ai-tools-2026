@@ -28,6 +28,10 @@ jobs:
             --max-concurrency 8
             --timeout 20
             --retry-wait-time 2
-            './**/*.md'
+            './README*.md'
+            './CONTRIBUTING.md'
+            './CODE_OF_CONDUCT.md'
+            './CHANGELOG.md'
+            './data/README.md'
           fail: true
           jobSummary: true

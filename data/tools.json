@@ -889,7 +889,7 @@
     },
     {
       "name": "Mistral AI La Plateforme",
-      "url": "https://console.mistral.ai/",
+      "url": "https://docs.mistral.ai/getting-started/platform-overview/",
       "category": "platforms",
       "description_en": "Mistral model APIs for text, coding, documents, embeddings, and agents.",
       "description_ru": "API моделей Mistral для текста, кода, документов, эмбеддингов и агентов.",

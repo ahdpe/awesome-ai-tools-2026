@@ -216,7 +216,7 @@ Hosted model access, inference APIs, routing, and developer platforms.
 | **[OpenAI API](https://platform.openai.com/docs/overview)** | Developer platform for text, reasoning, multimodal, realtime, image, audio, and agent APIs. | Usage-based | Closed | No | Yes |
 | **[Anthropic API](https://docs.anthropic.com/en/api/getting-started)** | Claude model API with tool use, prompt caching, batches, and enterprise controls. | Usage-based | Closed | No | Yes |
 | **[Google AI Studio](https://aistudio.google.com/)** | Browser workspace and API access for prototyping with Google's Gemini models. | Free tier | Closed | No | Yes |
-| **[Mistral AI La Plateforme](https://console.mistral.ai/)** | Mistral model APIs for text, coding, documents, embeddings, and agents. | Usage-based | Mixed | No | Yes |
+| **[Mistral AI La Plateforme](https://docs.mistral.ai/getting-started/platform-overview/)** | Mistral model APIs for text, coding, documents, embeddings, and agents. | Usage-based | Mixed | No | Yes |
 | **[GroqCloud](https://console.groq.com/)** | Low-latency hosted inference for supported open and commercial models. | Free tier | Closed | No | Yes |
 | **[Together AI](https://www.together.ai/)** | Cloud platform for open-model inference, fine-tuning, dedicated endpoints, and GPU workloads. | Usage-based | Closed | No | Yes |
 | **[Fireworks AI](https://fireworks.ai/)** | Fast model inference, fine-tuning, and production deployment for generative applications. | Usage-based | Closed | No | Yes |
