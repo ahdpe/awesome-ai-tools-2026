@@ -4,6 +4,7 @@ https://github\.com/ahdpe/awesome-ai-tools-2026/.*
 # These official sites return 403 to automated link checkers.
 https://chatgpt\.com/.*
 https://claude\.ai/.*
+https://gemini\.google\.com/.*
 https://www\.perplexity\.ai/.*
 https://openai\.com/(codex|sora)/.*
 https://chat\.mistral\.ai/.*
