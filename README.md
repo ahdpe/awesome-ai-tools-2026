@@ -172,6 +172,7 @@ Image generation, editing, design assistance, and visual workflows.
 | **[FLUX](https://blackforestlabs.ai/)** | Black Forest Labs image models available through APIs and selected open weights. | Mixed | Mixed | Yes | Yes |
 | **[ComfyUI](https://www.comfy.org/)** | Node-based open workflow system for local image and generative media models. | Open source | Open | Yes | Yes |
 | **[Invoke](https://invoke.ai/)** | Professional creative engine for controlled image generation, workflows, and team use. | Open source | Mixed | Yes | Yes |
+| **[GPT Image 2](https://gptimage2.asia/)** | Production-ready AI image generation and editing for marketing, ecommerce, social media, and branded content. | Free trial | Closed | No | Yes |
 
 <a id="video"></a>
 
