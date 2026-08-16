@@ -5,7 +5,7 @@
 **A curated, practical guide to AI tools that are genuinely useful in 2026.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-80-2ea44f)](#catalog)
+[![Tools](https://img.shields.io/badge/tools-81-2ea44f)](#catalog)
 [![Last updated](https://img.shields.io/badge/last%20updated-2026--07--14-0969da)](#maintenance)
 [![Stars](https://img.shields.io/github/stars/ahdpe/awesome-ai-tools-2026?style=flat&logo=github)](https://github.com/ahdpe/awesome-ai-tools-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
@@ -17,7 +17,7 @@
   <strong>English</strong> · <a href="README.ru.md">Русская версия</a>
 </p>
 
-> 80 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
+> 81 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
 
 This is a selective guide, not a dump of every product with “AI” in its name. It is designed to help people quickly find a sensible starting point and understand the tradeoffs before opening ten tabs.
 
@@ -45,7 +45,7 @@ These are useful starting points, not universal winners:
 - [RAG, Search & Knowledge (8)](#rag)
 - [Evaluation & Observability (8)](#evaluation)
 - [Image & Design (8)](#image)
-- [Video & Avatars (7)](#video)
+- [Video & Avatars (8)](#video)
 - [Voice, Audio & Music (7)](#audio)
 - [Model APIs & Platforms (9)](#platforms)
 
@@ -188,6 +188,7 @@ Text-to-video, video editing, synthetic presenters, and production tools.
 | **[Kling AI](https://klingai.com/)** | Text-to-video and image-to-video generation with consumer-friendly creative controls. | Free tier | Closed | No | Yes |
 | **[HeyGen](https://www.heygen.com/)** | AI avatars, voice translation, and presenter videos for business communication. | Free tier | Closed | No | Yes |
 | **[Synthesia](https://www.synthesia.io/)** | Enterprise avatar videos for training, onboarding, localization, and internal communication. | Paid | Closed | No | Yes |
+| **[videos.social](https://videos.social/)** | Turns blogs, PDFs, and prompts into editable faceless videos instead of a locked regenerate loop. | Free tier | Closed | No | No |
 
 <a id="audio"></a>
 
