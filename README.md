@@ -79,7 +79,7 @@ Tools that understand codebases, edit files, review changes, and help ship softw
 |---|---|---|---|:---:|:---:|
 | **[GitHub Copilot](https://github.com/features/copilot)** | Coding assistance, chat, reviews, and agents integrated with GitHub and popular IDEs. | Free tier | Closed | No | No |
 | **[Cursor](https://www.cursor.com/)** | AI-first code editor for repository-aware edits, chat, and agentic development. | Free tier | Closed | No | No |
-| **[Windsurf](https://windsurf.com/editor)** | Agentic IDE with codebase context, coordinated edits, and terminal workflows. | Free tier | Closed | No | No |
+| **[Devin Desktop](https://devin.ai/desktop)** | The new name for Windsurf: an agent command center with the full IDE, terminal workflows, and multi-agent management. | Free tier | Closed | No | No |
 | **[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)** | Terminal coding agent for understanding repositories, editing code, and running development tasks. | Paid | Closed | No | No |
 | **[OpenAI Codex](https://openai.com/codex/)** | Coding agent for parallel tasks, implementation, review, refactoring, and repository work. | Free tier | Mixed | No | Yes |
 | **[Aider](https://aider.chat/)** | Open-source terminal pair programmer with Git-aware edits and broad model support. | Open source | Open | Yes | No |

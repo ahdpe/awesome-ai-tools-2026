@@ -173,11 +173,11 @@
       "api": false
     },
     {
-      "name": "Windsurf",
-      "url": "https://windsurf.com/editor",
+      "name": "Devin Desktop",
+      "url": "https://devin.ai/desktop",
       "category": "coding",
-      "description_en": "Agentic IDE with codebase context, coordinated edits, and terminal workflows.",
-      "description_ru": "Агентная IDE с контекстом кодовой базы, связанными правками и работой в терминале.",
+      "description_en": "The new name for Windsurf: an agent command center with the full IDE, terminal workflows, and multi-agent management.",
+      "description_ru": "Новое название Windsurf: центр управления агентами с полноценной IDE, терминалом и поддержкой нескольких агентов.",
       "access": "Free tier",
       "source": "Closed",
       "local": false,
