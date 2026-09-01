@@ -778,6 +778,17 @@
       "api": true
     },
     {
+      "name": "videos.social",
+      "url": "https://videos.social/",
+      "category": "video",
+      "description_en": "Turns blogs, PDFs, and prompts into editable faceless videos instead of a locked regenerate loop.",
+      "description_ru": "Превращает блоги, PDF и промпты в редактируемые видео без лица — черновик со сценарием и сценами, а не заблокированный ролик.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": false
+    },
+    {
       "name": "ElevenLabs",
       "url": "https://elevenlabs.io/",
       "category": "audio",
