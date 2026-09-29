@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-09-29",
   "categories": [
     {
       "id": "assistants",
@@ -950,6 +950,17 @@
       "description_ru": "Единый доступ к облачным моделям и провайдерам инференса в экосистеме Hugging Face.",
       "access": "Free tier",
       "source": "Mixed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "Clarity",
+      "url": "https://agent-tools.cloud/services/desktop-o99r0sf-tail935fba-ts-net-sub899",
+      "category": "assistants",
+      "description_en": "Base mainnet x402 research gateway with free discovery plus paid USDC report and chat endpoints.",
+      "description_ru": "Исследовательский шлюз x402 в сети Base: бесплатное обнаружение и платные эндпоинты отчётов и чата в USDC.",
+      "access": "Paid",
+      "source": "Closed",
       "local": false,
       "api": true
     }

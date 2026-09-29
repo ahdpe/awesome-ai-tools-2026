@@ -5,8 +5,8 @@
 **A curated, practical guide to AI tools that are genuinely useful in 2026.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-80-2ea44f)](#catalog)
-[![Last updated](https://img.shields.io/badge/last%20updated-2026--07--14-0969da)](#maintenance)
+[![Tools](https://img.shields.io/badge/tools-81-2ea44f)](#catalog)
+[![Last updated](https://img.shields.io/badge/last%20updated-2026--09--29-0969da)](#maintenance)
 [![Stars](https://img.shields.io/github/stars/ahdpe/awesome-ai-tools-2026?style=flat&logo=github)](https://github.com/ahdpe/awesome-ai-tools-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -17,7 +17,7 @@
   <strong>English</strong> · <a href="README.ru.md">Русская версия</a>
 </p>
 
-> 80 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
+> 81 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
 
 This is a selective guide, not a dump of every product with “AI” in its name. It is designed to help people quickly find a sensible starting point and understand the tradeoffs before opening ten tabs.
 
@@ -38,7 +38,7 @@ These are useful starting points, not universal winners:
 
 ## Browse the catalog
 
-- [Assistants & Research (7)](#assistants)
+- [Assistants & Research (8)](#assistants)
 - [Coding Agents & Developer Tools (9)](#coding)
 - [Agent Frameworks & Automation (9)](#agents)
 - [Local AI & Inference (8)](#local)
@@ -68,6 +68,7 @@ General-purpose assistants, answer engines, and tools for working with sources.
 | **[Microsoft Copilot](https://copilot.microsoft.com/)** | Consumer and workplace assistant connected to Microsoft's productivity ecosystem. | Free tier | Closed | No | No |
 | **[NotebookLM](https://notebooklm.google.com/)** | Source-grounded notebooks for summaries, questions, study guides, and audio overviews. | Free tier | Closed | No | No |
 | **[Le Chat](https://chat.mistral.ai/)** | Mistral's multilingual assistant for chat, documents, search, and enterprise work. | Free tier | Closed | No | Yes |
+| **[Clarity](https://agent-tools.cloud/services/desktop-o99r0sf-tail935fba-ts-net-sub899)** | Base mainnet x402 research gateway with free discovery plus paid USDC report and chat endpoints. | Paid | Closed | No | Yes |
 
 <a id="coding"></a>
 
@@ -252,7 +253,7 @@ The catalog is generated from [`data/tools.json`](data/tools.json). Do not edit 
 
 ## Maintenance
 
-Last reviewed: **July 14, 2026**.
+Last reviewed: **September 29, 2026**.
 
 - Structured data and both language versions are checked in CI.
 - Links are checked on pull requests and on a weekly schedule.
