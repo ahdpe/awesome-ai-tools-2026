@@ -5,8 +5,8 @@
 **A curated, practical guide to AI tools that are genuinely useful in 2026.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-80-2ea44f)](#catalog)
-[![Last updated](https://img.shields.io/badge/last%20updated-2026--07--14-0969da)](#maintenance)
+[![Tools](https://img.shields.io/badge/tools-89-2ea44f)](#catalog)
+[![Last updated](https://img.shields.io/badge/last%20updated-2026--10--18-0969da)](#maintenance)
 [![Stars](https://img.shields.io/github/stars/ahdpe/awesome-ai-tools-2026?style=flat&logo=github)](https://github.com/ahdpe/awesome-ai-tools-2026/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -17,7 +17,7 @@
   <strong>English</strong> · <a href="README.ru.md">Русская версия</a>
 </p>
 
-> 80 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
+> 89 tools across 10 categories. Every entry links to an official project or product page. No affiliate links and no paid placement.
 
 This is a selective guide, not a dump of every product with “AI” in its name. It is designed to help people quickly find a sensible starting point and understand the tradeoffs before opening ten tabs.
 
@@ -29,7 +29,7 @@ These are useful starting points, not universal winners:
 |---|---|
 | Use a general AI assistant | [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), [Gemini](https://gemini.google.com/) |
 | Research with visible sources | [Perplexity](https://www.perplexity.ai/), [NotebookLM](https://notebooklm.google.com/) |
-| Work with a codebase | [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://www.cursor.com/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), [OpenAI Codex](https://openai.com/codex/) |
+| Work with a codebase | [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://www.cursor.com/), [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex/) |
 | Build an AI agent | [LangGraph](https://www.langchain.com/langgraph), [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/), [PydanticAI](https://ai.pydantic.dev/) |
 | Run models privately | [Ollama](https://ollama.com/), [LM Studio](https://lmstudio.ai/), [Open WebUI](https://openwebui.com/) |
 | Build retrieval or RAG | [Qdrant](https://qdrant.tech/), [pgvector](https://github.com/pgvector/pgvector), [Firecrawl](https://www.firecrawl.dev/) |
@@ -40,14 +40,14 @@ These are useful starting points, not universal winners:
 
 - [Assistants & Research (7)](#assistants)
 - [Coding Agents & Developer Tools (9)](#coding)
-- [Agent Frameworks & Automation (9)](#agents)
+- [Agent Frameworks & Automation (11)](#agents)
 - [Local AI & Inference (8)](#local)
-- [RAG, Search & Knowledge (8)](#rag)
-- [Evaluation & Observability (8)](#evaluation)
-- [Image & Design (8)](#image)
-- [Video & Avatars (7)](#video)
+- [RAG, Search & Knowledge (10)](#rag)
+- [Evaluation & Observability (9)](#evaluation)
+- [Image & Design (10)](#image)
+- [Video & Avatars (6)](#video)
 - [Voice, Audio & Music (7)](#audio)
-- [Model APIs & Platforms (9)](#platforms)
+- [Model APIs & Platforms (12)](#platforms)
 
 <a id="catalog"></a>
 
@@ -80,12 +80,12 @@ Tools that understand codebases, edit files, review changes, and help ship softw
 | **[GitHub Copilot](https://github.com/features/copilot)** | Coding assistance, chat, reviews, and agents integrated with GitHub and popular IDEs. | Free tier | Closed | No | No |
 | **[Cursor](https://www.cursor.com/)** | AI-first code editor for repository-aware edits, chat, and agentic development. | Free tier | Closed | No | No |
 | **[Devin Desktop](https://devin.ai/desktop)** | The new name for Windsurf: an agent command center with the full IDE, terminal workflows, and multi-agent management. | Free tier | Closed | No | No |
-| **[Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)** | Terminal coding agent for understanding repositories, editing code, and running development tasks. | Paid | Closed | No | No |
+| **[Claude Code](https://code.claude.com/docs/en/overview)** | Agentic coding tool for the terminal, IDEs, desktop, and web that reads repositories, edits code, and runs development tasks. | Paid | Closed | No | No |
 | **[OpenAI Codex](https://openai.com/codex/)** | Coding agent for parallel tasks, implementation, review, refactoring, and repository work. | Free tier | Mixed | No | Yes |
-| **[Aider](https://aider.chat/)** | Open-source terminal pair programmer with Git-aware edits and broad model support. | Open source | Open | Yes | No |
-| **[Continue](https://www.continue.dev/)** | Open coding assistant platform for IDE chat, autocomplete, agents, and custom models. | Open source | Mixed | Yes | No |
+| **[Google Antigravity](https://antigravity.google/)** | Google's agent-first IDE and CLI for delegating multi-step coding tasks; it replaced Gemini CLI for individual accounts. | Free tier | Closed | No | No |
+| **[Aider](https://aider.chat/)** | Open-source terminal pair programmer with Git-aware edits and broad model support; development has slowed to maintenance releases. | Open source | Open | Yes | No |
+| **[OpenCode](https://opencode.ai/)** | Open-source terminal coding agent with a TUI, model-provider choice, and support for local models. | Open source | Open | Yes | No |
 | **[Cline](https://cline.bot/)** | Open-source IDE agent with file editing, terminal use, browser control, and approvals. | Open source | Open | Yes | No |
-| **[Roo Code](https://roocode.com/)** | Open-source coding agent with specialized modes, model choice, and extensible workflows. | Open source | Open | Yes | No |
 
 <a id="agents"></a>
 
@@ -98,12 +98,14 @@ SDKs and platforms for tool use, orchestration, durable workflows, and multi-age
 | **[LangChain](https://www.langchain.com/)** | Model-agnostic framework and integrations for tools, retrieval, and agent applications. | Open source | Mixed | Yes | Yes |
 | **[LangGraph](https://www.langchain.com/langgraph)** | Low-level runtime for durable, stateful agents with streaming and human approval. | Open source | Open | Yes | Yes |
 | **[OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)** | Lightweight SDK for agents, tools, handoffs, guardrails, sessions, and tracing. | Open source | Open | Yes | Yes |
+| **[Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)** | The agent harness behind Claude Code as a Python and TypeScript library, with built-in tools, MCP, and permissions. | Usage-based | Mixed | No | Yes |
 | **[Google Agent Development Kit](https://google.github.io/adk-docs/)** | Google's open toolkit for building, evaluating, and deploying modular agents. | Open source | Open | Yes | Yes |
 | **[LlamaIndex](https://www.llamaindex.ai/)** | Framework for agents and context-augmented applications built around private data. | Open source | Mixed | Yes | Yes |
 | **[CrewAI](https://www.crewai.com/)** | Framework and platform for role-based agent crews and automated workflows. | Open source | Mixed | Yes | Yes |
-| **[Microsoft AutoGen](https://microsoft.github.io/autogen/stable/)** | Event-driven framework for conversational and scalable multi-agent applications. | Open source | Open | Yes | Yes |
+| **[Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/)** | Microsoft's open SDK for agents and multi-agent workflows in Python and .NET, the successor to AutoGen and Semantic Kernel. | Open source | Open | Yes | Yes |
 | **[PydanticAI](https://ai.pydantic.dev/)** | Typed Python agent framework with structured outputs, tools, validation, and model portability. | Open source | Open | Yes | Yes |
 | **[Dify](https://dify.ai/)** | Visual platform for AI workflows, RAG applications, agents, and model operations. | Free tier | Source available | Yes | Yes |
+| **[n8n](https://n8n.io/)** | Workflow automation platform with AI agent nodes, hundreds of integrations, and self-hosting. | Free tier | Source available | Yes | Yes |
 
 <a id="local"></a>
 
@@ -137,6 +139,8 @@ Retrieval, vector search, web extraction, and document preparation for AI applic
 | **[pgvector](https://github.com/pgvector/pgvector)** | PostgreSQL extension for vector similarity search alongside relational application data. | Open source | Open | Yes | No |
 | **[Pinecone](https://www.pinecone.io/)** | Managed vector database for semantic search, recommendations, and production retrieval. | Free tier | Closed | No | Yes |
 | **[Firecrawl](https://www.firecrawl.dev/)** | Web crawling and extraction that turns sites into LLM-ready structured content. | Free tier | Mixed | Yes | Yes |
+| **[Exa](https://exa.ai/)** | Web search API built for AI applications, with semantic search, page contents, and research endpoints. | Free tier | Closed | No | Yes |
+| **[Tavily](https://www.tavily.com/)** | Search, extract, and crawl API for agents that need real-time web results; now part of Nebius. | Free tier | Closed | No | Yes |
 | **[Unstructured](https://unstructured.io/)** | Document ingestion and partitioning for PDFs, office files, email, and enterprise data. | Free tier | Mixed | Yes | Yes |
 
 <a id="evaluation"></a>
@@ -148,9 +152,10 @@ Trace, test, evaluate, and monitor LLM applications and agents.
 | Tool | Useful for | Access | Source | Local | API |
 |---|---|---|---|:---:|:---:|
 | **[LangSmith](https://www.langchain.com/langsmith)** | Framework-agnostic tracing, evaluation, testing, monitoring, and agent deployment platform. | Free tier | Closed | No | Yes |
+| **[Braintrust](https://www.braintrust.dev/)** | Evaluation, prompt experimentation, and production tracing platform for AI products. | Free tier | Closed | No | Yes |
 | **[Langfuse](https://langfuse.com/)** | Open-source LLM observability, prompt management, evaluation, and usage analytics. | Free tier | Mixed | Yes | Yes |
 | **[Arize Phoenix](https://arize.com/docs/phoenix/)** | Open-source tracing and evaluation for LLM applications, agents, and retrieval systems. | Open source | Open | Yes | Yes |
-| **[W&B Weave](https://wandb.ai/site/weave)** | Tracing, evaluation, and iteration tools for AI applications and model pipelines. | Free tier | Mixed | Yes | Yes |
+| **[W&B Weave](https://wandb.ai/site/weave)** | Weights & Biases (now part of CoreWeave) toolkit for tracing, evaluating, and iterating on AI applications. | Free tier | Mixed | Yes | Yes |
 | **[MLflow](https://mlflow.org/)** | Open platform for experiment tracking, model management, evaluation, and generative AI observability. | Open source | Open | Yes | Yes |
 | **[DeepEval](https://deepeval.com/)** | Open-source testing and evaluation framework for LLM outputs, RAG, and agents. | Open source | Mixed | Yes | Yes |
 | **[Ragas](https://ragas.io/)** | Evaluation framework focused on retrieval pipelines and context-grounded AI applications. | Open source | Mixed | Yes | Yes |
@@ -166,12 +171,14 @@ Image generation, editing, design assistance, and visual workflows.
 |---|---|---|---|:---:|:---:|
 | **[Midjourney](https://www.midjourney.com/)** | High-quality image generation with strong artistic direction and style exploration. | Paid | Closed | No | No |
 | **[Adobe Firefly](https://firefly.adobe.com/)** | Generative image and design tools integrated across Adobe creative applications. | Free tier | Closed | No | Yes |
+| **[Gemini Image (Nano Banana)](https://ai.google.dev/gemini-api/docs/image-generation)** | Google's Gemini image models for generation and conversational editing in the Gemini app and API. | Free tier | Closed | No | Yes |
+| **[GPT Image](https://platform.openai.com/docs/guides/image-generation)** | OpenAI image generation and editing models available in ChatGPT and the OpenAI API. | Free tier | Closed | No | Yes |
 | **[Canva AI](https://www.canva.com/ai/)** | Accessible AI design suite for presentations, social graphics, images, and brand assets. | Free tier | Closed | No | No |
 | **[Ideogram](https://ideogram.ai/)** | Image generation particularly useful for typography, posters, logos, and graphic layouts. | Free tier | Closed | No | Yes |
 | **[Leonardo.Ai](https://leonardo.ai/)** | Creative production platform for images, assets, editing, and consistent visual styles. | Free tier | Closed | No | Yes |
-| **[FLUX](https://blackforestlabs.ai/)** | Black Forest Labs image models available through APIs and selected open weights. | Mixed | Mixed | Yes | Yes |
+| **[FLUX](https://bfl.ai/)** | Black Forest Labs FLUX.2 image models: hosted Pro and Flex APIs plus open-weight Dev and Klein variants. | Mixed | Mixed | Yes | Yes |
 | **[ComfyUI](https://www.comfy.org/)** | Node-based open workflow system for local image and generative media models. | Open source | Open | Yes | Yes |
-| **[Invoke](https://invoke.ai/)** | Professional creative engine for controlled image generation, workflows, and team use. | Open source | Mixed | Yes | Yes |
+| **[Invoke](https://invoke.ai/)** | Community-maintained open-source engine for controlled local image generation; the hosted service closed in 2025. | Open source | Open | Yes | Yes |
 
 <a id="video"></a>
 
@@ -181,7 +188,6 @@ Text-to-video, video editing, synthetic presenters, and production tools.
 
 | Tool | Useful for | Access | Source | Local | API |
 |---|---|---|---|:---:|:---:|
-| **[Sora](https://openai.com/sora/)** | OpenAI video generation and editing for text, images, and visual storytelling. | Paid | Closed | No | Yes |
 | **[Runway](https://runwayml.com/)** | Generative video platform with creation, transformation, editing, and production controls. | Free tier | Closed | No | Yes |
 | **[Google Veo](https://deepmind.google/models/veo/)** | Google's video generation model family for cinematic clips and controllable audio-visual output. | Paid | Closed | No | Yes |
 | **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** | Image and video generation focused on motion, cinematic control, and fast iteration. | Free tier | Closed | No | Yes |
@@ -200,8 +206,8 @@ Speech synthesis, transcription, voice agents, editing, and music generation.
 | **[ElevenLabs](https://elevenlabs.io/)** | Speech synthesis, voice cloning, dubbing, transcription, and conversational voice agents. | Free tier | Closed | No | Yes |
 | **[Descript](https://www.descript.com/)** | Text-based editing for podcasts and video with transcription and voice tools. | Free tier | Closed | No | No |
 | **[Suno](https://suno.com/)** | Song generation from prompts with vocals, lyrics, arrangement, and style controls. | Free tier | Closed | No | No |
-| **[Udio](https://www.udio.com/)** | AI music creation and extension with prompting, remixing, and track controls. | Free tier | Closed | No | No |
 | **[Deepgram](https://deepgram.com/)** | Low-latency speech-to-text, text-to-speech, and voice agent APIs. | Free tier | Closed | No | Yes |
+| **[AssemblyAI](https://www.assemblyai.com/)** | Speech-to-text and audio intelligence APIs for transcription, streaming, and speech understanding. | Free tier | Closed | No | Yes |
 | **[Cartesia](https://cartesia.ai/)** | Real-time voice generation infrastructure for responsive conversational applications. | Free tier | Closed | No | Yes |
 | **[OpenAI Whisper](https://github.com/openai/whisper)** | Open-source multilingual speech recognition and translation model for local transcription. | Open source | Open | Yes | Yes |
 
@@ -214,9 +220,12 @@ Hosted model access, inference APIs, routing, and developer platforms.
 | Tool | Useful for | Access | Source | Local | API |
 |---|---|---|---|:---:|:---:|
 | **[OpenAI API](https://platform.openai.com/docs/overview)** | Developer platform for text, reasoning, multimodal, realtime, image, audio, and agent APIs. | Usage-based | Closed | No | Yes |
-| **[Anthropic API](https://docs.anthropic.com/en/api/getting-started)** | Claude model API with tool use, prompt caching, batches, and enterprise controls. | Usage-based | Closed | No | Yes |
+| **[Anthropic API](https://platform.claude.com/docs/en/api/overview)** | Claude model API with tool use, prompt caching, batches, and enterprise controls. | Usage-based | Closed | No | Yes |
 | **[Google AI Studio](https://aistudio.google.com/)** | Browser workspace and API access for prototyping with Google's Gemini models. | Free tier | Closed | No | Yes |
-| **[Mistral AI La Plateforme](https://docs.mistral.ai/getting-started/platform-overview/)** | Mistral model APIs for text, coding, documents, embeddings, and agents. | Usage-based | Mixed | No | Yes |
+| **[Google Vertex AI](https://cloud.google.com/vertex-ai)** | Google Cloud platform for Gemini, partner, and open models with tuning, agents, and enterprise controls. | Usage-based | Closed | No | Yes |
+| **[Amazon Bedrock](https://aws.amazon.com/bedrock/)** | AWS service for accessing foundation models from many providers with agents, guardrails, and knowledge bases. | Usage-based | Closed | No | Yes |
+| **[Mistral AI Studio](https://docs.mistral.ai/studio)** | Mistral's developer console and API (formerly La Plateforme) for models, agents, evaluations, and usage monitoring. | Usage-based | Mixed | No | Yes |
+| **[DeepSeek API](https://api-docs.deepseek.com/)** | Low-cost API for DeepSeek's chat and reasoning models, which are also released as open weights. | Usage-based | Mixed | No | Yes |
 | **[GroqCloud](https://console.groq.com/)** | Low-latency hosted inference for supported open and commercial models. | Free tier | Closed | No | Yes |
 | **[Together AI](https://www.together.ai/)** | Cloud platform for open-model inference, fine-tuning, dedicated endpoints, and GPU workloads. | Usage-based | Closed | No | Yes |
 | **[Fireworks AI](https://fireworks.ai/)** | Fast model inference, fine-tuning, and production deployment for generative applications. | Usage-based | Closed | No | Yes |
@@ -252,7 +261,7 @@ The catalog is generated from [`data/tools.json`](data/tools.json). Do not edit 
 
 ## Maintenance
 
-Last reviewed: **July 14, 2026**.
+Last reviewed: **October 18, 2026**.
 
 - Structured data and both language versions are checked in CI.
 - Links are checked on pull requests and on a weekly schedule.

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-10-18",
   "categories": [
     {
       "id": "assistants",
@@ -185,10 +185,10 @@
     },
     {
       "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "url": "https://code.claude.com/docs/en/overview",
       "category": "coding",
-      "description_en": "Terminal coding agent for understanding repositories, editing code, and running development tasks.",
-      "description_ru": "Терминальный агент для изучения репозиториев, изменения кода и выполнения задач разработки.",
+      "description_en": "Agentic coding tool for the terminal, IDEs, desktop, and web that reads repositories, edits code, and runs development tasks.",
+      "description_ru": "Агент для программирования в терминале, IDE, десктопе и вебе: изучает репозиторий, меняет код и выполняет задачи разработки.",
       "access": "Paid",
       "source": "Closed",
       "local": false,
@@ -206,24 +206,35 @@
       "api": true
     },
     {
+      "name": "Google Antigravity",
+      "url": "https://antigravity.google/",
+      "category": "coding",
+      "description_en": "Google's agent-first IDE and CLI for delegating multi-step coding tasks; it replaced Gemini CLI for individual accounts.",
+      "description_ru": "Агентная IDE и CLI от Google для делегирования многошаговых задач; для личных аккаунтов заменила Gemini CLI.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": false
+    },
+    {
       "name": "Aider",
       "url": "https://aider.chat/",
       "category": "coding",
-      "description_en": "Open-source terminal pair programmer with Git-aware edits and broad model support.",
-      "description_ru": "Открытый терминальный напарник с Git-правками и поддержкой разных моделей.",
+      "description_en": "Open-source terminal pair programmer with Git-aware edits and broad model support; development has slowed to maintenance releases.",
+      "description_ru": "Открытый терминальный напарник с Git-правками и поддержкой разных моделей; развитие замедлилось до поддерживающих релизов.",
       "access": "Open source",
       "source": "Open",
       "local": true,
       "api": false
     },
     {
-      "name": "Continue",
-      "url": "https://www.continue.dev/",
+      "name": "OpenCode",
+      "url": "https://opencode.ai/",
       "category": "coding",
-      "description_en": "Open coding assistant platform for IDE chat, autocomplete, agents, and custom models.",
-      "description_ru": "Открытая платформа для IDE-чата, автодополнения, агентов и собственных моделей.",
+      "description_en": "Open-source terminal coding agent with a TUI, model-provider choice, and support for local models.",
+      "description_ru": "Открытый терминальный агент для программирования с TUI, выбором провайдера моделей и поддержкой локальных моделей.",
       "access": "Open source",
-      "source": "Mixed",
+      "source": "Open",
       "local": true,
       "api": false
     },
@@ -233,17 +244,6 @@
       "category": "coding",
       "description_en": "Open-source IDE agent with file editing, terminal use, browser control, and approvals.",
       "description_ru": "Открытый IDE-агент с редактированием файлов, терминалом, браузером и подтверждениями.",
-      "access": "Open source",
-      "source": "Open",
-      "local": true,
-      "api": false
-    },
-    {
-      "name": "Roo Code",
-      "url": "https://roocode.com/",
-      "category": "coding",
-      "description_en": "Open-source coding agent with specialized modes, model choice, and extensible workflows.",
-      "description_ru": "Открытый агент для программирования со специализированными режимами и выбором моделей.",
       "access": "Open source",
       "source": "Open",
       "local": true,
@@ -283,6 +283,17 @@
       "api": true
     },
     {
+      "name": "Claude Agent SDK",
+      "url": "https://platform.claude.com/docs/en/agent-sdk/overview",
+      "category": "agents",
+      "description_en": "The agent harness behind Claude Code as a Python and TypeScript library, with built-in tools, MCP, and permissions.",
+      "description_ru": "Агентная обвязка Claude Code в виде библиотеки для Python и TypeScript со встроенными инструментами, MCP и разрешениями.",
+      "access": "Usage-based",
+      "source": "Mixed",
+      "local": false,
+      "api": true
+    },
+    {
       "name": "Google Agent Development Kit",
       "url": "https://google.github.io/adk-docs/",
       "category": "agents",
@@ -316,11 +327,11 @@
       "api": true
     },
     {
-      "name": "Microsoft AutoGen",
-      "url": "https://microsoft.github.io/autogen/stable/",
+      "name": "Microsoft Agent Framework",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/",
       "category": "agents",
-      "description_en": "Event-driven framework for conversational and scalable multi-agent applications.",
-      "description_ru": "Событийный фреймворк для диалоговых и масштабируемых мультиагентных приложений.",
+      "description_en": "Microsoft's open SDK for agents and multi-agent workflows in Python and .NET, the successor to AutoGen and Semantic Kernel.",
+      "description_ru": "Открытый SDK Microsoft для агентов и мультиагентных процессов на Python и .NET, преемник AutoGen и Semantic Kernel.",
       "access": "Open source",
       "source": "Open",
       "local": true,
@@ -343,6 +354,17 @@
       "category": "agents",
       "description_en": "Visual platform for AI workflows, RAG applications, agents, and model operations.",
       "description_ru": "Визуальная платформа для AI-процессов, RAG-приложений, агентов и управления моделями.",
+      "access": "Free tier",
+      "source": "Source available",
+      "local": true,
+      "api": true
+    },
+    {
+      "name": "n8n",
+      "url": "https://n8n.io/",
+      "category": "agents",
+      "description_en": "Workflow automation platform with AI agent nodes, hundreds of integrations, and self-hosting.",
+      "description_ru": "Платформа автоматизации процессов с AI-агентами, сотнями интеграций и возможностью self-hosting.",
       "access": "Free tier",
       "source": "Source available",
       "local": true,
@@ -514,6 +536,28 @@
       "api": true
     },
     {
+      "name": "Exa",
+      "url": "https://exa.ai/",
+      "category": "rag",
+      "description_en": "Web search API built for AI applications, with semantic search, page contents, and research endpoints.",
+      "description_ru": "API веб-поиска для AI-приложений с семантическим поиском, получением содержимого страниц и исследовательскими запросами.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "Tavily",
+      "url": "https://www.tavily.com/",
+      "category": "rag",
+      "description_en": "Search, extract, and crawl API for agents that need real-time web results; now part of Nebius.",
+      "description_ru": "API поиска, извлечения и обхода сайтов для агентов, которым нужны актуальные веб-данные; теперь в составе Nebius.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
       "name": "Unstructured",
       "url": "https://unstructured.io/",
       "category": "rag",
@@ -530,6 +574,17 @@
       "category": "evaluation",
       "description_en": "Framework-agnostic tracing, evaluation, testing, monitoring, and agent deployment platform.",
       "description_ru": "Независимая от фреймворка платформа трассировки, оценки, тестирования и мониторинга агентов.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "Braintrust",
+      "url": "https://www.braintrust.dev/",
+      "category": "evaluation",
+      "description_en": "Evaluation, prompt experimentation, and production tracing platform for AI products.",
+      "description_ru": "Платформа для оценки, экспериментов с промптами и трассировки AI-продуктов в продакшене.",
       "access": "Free tier",
       "source": "Closed",
       "local": false,
@@ -561,8 +616,8 @@
       "name": "W&B Weave",
       "url": "https://wandb.ai/site/weave",
       "category": "evaluation",
-      "description_en": "Tracing, evaluation, and iteration tools for AI applications and model pipelines.",
-      "description_ru": "Трассировка, оценка и итерационная разработка AI-приложений и модельных процессов.",
+      "description_en": "Weights & Biases (now part of CoreWeave) toolkit for tracing, evaluating, and iterating on AI applications.",
+      "description_ru": "Инструменты Weights & Biases (теперь в составе CoreWeave) для трассировки, оценки и доработки AI-приложений.",
       "access": "Free tier",
       "source": "Mixed",
       "local": true,
@@ -635,6 +690,28 @@
       "api": true
     },
     {
+      "name": "Gemini Image (Nano Banana)",
+      "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "category": "image",
+      "description_en": "Google's Gemini image models for generation and conversational editing in the Gemini app and API.",
+      "description_ru": "Модели изображений Gemini от Google для генерации и диалогового редактирования в приложении Gemini и через API.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "GPT Image",
+      "url": "https://platform.openai.com/docs/guides/image-generation",
+      "category": "image",
+      "description_en": "OpenAI image generation and editing models available in ChatGPT and the OpenAI API.",
+      "description_ru": "Модели генерации и редактирования изображений OpenAI в ChatGPT и OpenAI API.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
       "name": "Canva AI",
       "url": "https://www.canva.com/ai/",
       "category": "image",
@@ -669,10 +746,10 @@
     },
     {
       "name": "FLUX",
-      "url": "https://blackforestlabs.ai/",
+      "url": "https://bfl.ai/",
       "category": "image",
-      "description_en": "Black Forest Labs image models available through APIs and selected open weights.",
-      "description_ru": "Модели изображений Black Forest Labs через API и отдельные открытые веса.",
+      "description_en": "Black Forest Labs FLUX.2 image models: hosted Pro and Flex APIs plus open-weight Dev and Klein variants.",
+      "description_ru": "Модели изображений FLUX.2 от Black Forest Labs: API Pro и Flex, а также открытые веса Dev и Klein.",
       "access": "Mixed",
       "source": "Mixed",
       "local": true,
@@ -693,22 +770,11 @@
       "name": "Invoke",
       "url": "https://invoke.ai/",
       "category": "image",
-      "description_en": "Professional creative engine for controlled image generation, workflows, and team use.",
-      "description_ru": "Профессиональный движок управляемой генерации изображений, процессов и командной работы.",
+      "description_en": "Community-maintained open-source engine for controlled local image generation; the hosted service closed in 2025.",
+      "description_ru": "Открытый движок для управляемой локальной генерации изображений, поддерживаемый сообществом; облачный сервис закрыт в 2025 году.",
       "access": "Open source",
-      "source": "Mixed",
+      "source": "Open",
       "local": true,
-      "api": true
-    },
-    {
-      "name": "Sora",
-      "url": "https://openai.com/sora/",
-      "category": "video",
-      "description_en": "OpenAI video generation and editing for text, images, and visual storytelling.",
-      "description_ru": "Генерация и редактирование видео OpenAI по тексту и изображениям.",
-      "access": "Paid",
-      "source": "Closed",
-      "local": false,
       "api": true
     },
     {
@@ -811,22 +877,22 @@
       "api": false
     },
     {
-      "name": "Udio",
-      "url": "https://www.udio.com/",
-      "category": "audio",
-      "description_en": "AI music creation and extension with prompting, remixing, and track controls.",
-      "description_ru": "Создание и продолжение музыки с промптами, ремиксами и настройками трека.",
-      "access": "Free tier",
-      "source": "Closed",
-      "local": false,
-      "api": false
-    },
-    {
       "name": "Deepgram",
       "url": "https://deepgram.com/",
       "category": "audio",
       "description_en": "Low-latency speech-to-text, text-to-speech, and voice agent APIs.",
       "description_ru": "API распознавания и синтеза речи с низкой задержкой для голосовых агентов.",
+      "access": "Free tier",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "AssemblyAI",
+      "url": "https://www.assemblyai.com/",
+      "category": "audio",
+      "description_en": "Speech-to-text and audio intelligence APIs for transcription, streaming, and speech understanding.",
+      "description_ru": "API распознавания речи и анализа аудио для транскрибации, потоковой обработки и понимания речи.",
       "access": "Free tier",
       "source": "Closed",
       "local": false,
@@ -867,7 +933,7 @@
     },
     {
       "name": "Anthropic API",
-      "url": "https://docs.anthropic.com/en/api/getting-started",
+      "url": "https://platform.claude.com/docs/en/api/overview",
       "category": "platforms",
       "description_en": "Claude model API with tool use, prompt caching, batches, and enterprise controls.",
       "description_ru": "API моделей Claude с инструментами, кешированием промптов, пакетами и корпоративным контролем.",
@@ -888,11 +954,44 @@
       "api": true
     },
     {
-      "name": "Mistral AI La Plateforme",
-      "url": "https://docs.mistral.ai/getting-started/platform-overview/",
+      "name": "Google Vertex AI",
+      "url": "https://cloud.google.com/vertex-ai",
       "category": "platforms",
-      "description_en": "Mistral model APIs for text, coding, documents, embeddings, and agents.",
-      "description_ru": "API моделей Mistral для текста, кода, документов, эмбеддингов и агентов.",
+      "description_en": "Google Cloud platform for Gemini, partner, and open models with tuning, agents, and enterprise controls.",
+      "description_ru": "Платформа Google Cloud для Gemini, партнёрских и открытых моделей с дообучением, агентами и корпоративным контролем.",
+      "access": "Usage-based",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "Amazon Bedrock",
+      "url": "https://aws.amazon.com/bedrock/",
+      "category": "platforms",
+      "description_en": "AWS service for accessing foundation models from many providers with agents, guardrails, and knowledge bases.",
+      "description_ru": "Сервис AWS для доступа к моделям разных провайдеров с агентами, ограничителями и базами знаний.",
+      "access": "Usage-based",
+      "source": "Closed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "Mistral AI Studio",
+      "url": "https://docs.mistral.ai/studio",
+      "category": "platforms",
+      "description_en": "Mistral's developer console and API (formerly La Plateforme) for models, agents, evaluations, and usage monitoring.",
+      "description_ru": "Консоль разработчика и API Mistral (ранее La Plateforme) для моделей, агентов, оценок и мониторинга использования.",
+      "access": "Usage-based",
+      "source": "Mixed",
+      "local": false,
+      "api": true
+    },
+    {
+      "name": "DeepSeek API",
+      "url": "https://api-docs.deepseek.com/",
+      "category": "platforms",
+      "description_en": "Low-cost API for DeepSeek's chat and reasoning models, which are also released as open weights.",
+      "description_ru": "Недорогой API для чат- и reasoning-моделей DeepSeek, которые также публикуются с открытыми весами.",
       "access": "Usage-based",
       "source": "Mixed",
       "local": false,

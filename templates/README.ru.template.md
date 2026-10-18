@@ -29,7 +29,7 @@
 |---|---|
 | Использовать универсального ассистента | [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), [Gemini](https://gemini.google.com/) |
 | Искать информацию с видимыми источниками | [Perplexity](https://www.perplexity.ai/), [NotebookLM](https://notebooklm.google.com/) |
-| Работать с кодовой базой | [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://www.cursor.com/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), [OpenAI Codex](https://openai.com/codex/) |
+| Работать с кодовой базой | [GitHub Copilot](https://github.com/features/copilot), [Cursor](https://www.cursor.com/), [Claude Code](https://code.claude.com/docs/en/overview), [OpenAI Codex](https://openai.com/codex/) |
 | Создать AI-агента | [LangGraph](https://www.langchain.com/langgraph), [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/), [PydanticAI](https://ai.pydantic.dev/) |
 | Запустить модели приватно | [Ollama](https://ollama.com/), [LM Studio](https://lmstudio.ai/), [Open WebUI](https://openwebui.com/) |
 | Сделать поиск или RAG | [Qdrant](https://qdrant.tech/), [pgvector](https://github.com/pgvector/pgvector), [Firecrawl](https://www.firecrawl.dev/) |
