@@ -169,6 +169,8 @@ Image generation, editing, design assistance, and visual workflows.
 | **[Canva AI](https://www.canva.com/ai/)** | Accessible AI design suite for presentations, social graphics, images, and brand assets. | Free tier | Closed | No | No |
 | **[Ideogram](https://ideogram.ai/)** | Image generation particularly useful for typography, posters, logos, and graphic layouts. | Free tier | Closed | No | Yes |
 | **[Leonardo.Ai](https://leonardo.ai/)** | Creative production platform for images, assets, editing, and consistent visual styles. | Free tier | Closed | No | Yes |
+| **[PromptImage](https://promptimage.cloud)** | Free AI image & video studio with prompt library; signup credits without a card. | Free tier | Closed | No | No |
+| **[TeslaWraps](https://teslawraps.design)** | Browser Tesla Paint Shop wrap editor; core editing and PNG export free, no account. | Free tier | Closed | No | No |
 | **[FLUX](https://blackforestlabs.ai/)** | Black Forest Labs image models available through APIs and selected open weights. | Mixed | Mixed | Yes | Yes |
 | **[ComfyUI](https://www.comfy.org/)** | Node-based open workflow system for local image and generative media models. | Open source | Open | Yes | Yes |
 | **[Invoke](https://invoke.ai/)** | Professional creative engine for controlled image generation, workflows, and team use. | Open source | Mixed | Yes | Yes |
@@ -186,6 +188,10 @@ Text-to-video, video editing, synthetic presenters, and production tools.
 | **[Google Veo](https://deepmind.google/models/veo/)** | Google's video generation model family for cinematic clips and controllable audio-visual output. | Paid | Closed | No | Yes |
 | **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** | Image and video generation focused on motion, cinematic control, and fast iteration. | Free tier | Closed | No | Yes |
 | **[Kling AI](https://klingai.com/)** | Text-to-video and image-to-video generation with consumer-friendly creative controls. | Free tier | Closed | No | Yes |
+| **[GrokVideo Studio](https://grokvideogenerator.dev)** | Independent text/image-to-video via Grok Imagine API (not affiliated with xAI/X). | Free trial | Closed | No | No |
+| **[Alors On Danse Video Maker](https://alorsondansevideo.com)** | Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok) | Paid | Closed | No | No |
+| **[Bad Times AI](https://badtimesai.dev)** | Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99) | Paid | Closed | No | No |
+| **[I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com)** | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) | Paid | Closed | No | No |
 | **[HeyGen](https://www.heygen.com/)** | AI avatars, voice translation, and presenter videos for business communication. | Free tier | Closed | No | Yes |
 | **[Synthesia](https://www.synthesia.io/)** | Enterprise avatar videos for training, onboarding, localization, and internal communication. | Paid | Closed | No | Yes |
 
