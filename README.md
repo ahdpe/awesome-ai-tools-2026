@@ -188,6 +188,15 @@ Text-to-video, video editing, synthetic presenters, and production tools.
 | **[Kling AI](https://klingai.com/)** | Text-to-video and image-to-video generation with consumer-friendly creative controls. | Free tier | Closed | No | Yes |
 | **[HeyGen](https://www.heygen.com/)** | AI avatars, voice translation, and presenter videos for business communication. | Free tier | Closed | No | Yes |
 | **[Synthesia](https://www.synthesia.io/)** | Enterprise avatar videos for training, onboarding, localization, and internal communication. | Paid | Closed | No | Yes |
+| **[KDA Firestarter AI Dance](https://kdafirestarterai.dev)** | Photo-to-solo-dance: one photo → 13s 21:9 dance video (unofficial; not Riot/K/DA). | Paid | Closed | No | No |
+| **[A2O LITE NEON AI Dance](https://a2oliteai.org)** | Two photos → 15s neon duo dance with reference soundtrack. | Paid | Closed | No | No |
+| **[dime dime baby ai](https://dimedimebabyai.dev)** | One photo → ~5s 9:16 AI dance (Quince Classic / Party Groove). | Paid | Closed | No | No |
+| PromptImage | Free AI image & video studio + prompt library | ✅ Free/Freemium | [promptimage.cloud](https://promptimage.cloud) |
+| TeslaWraps | Tesla wrap designer; core editing free | ✅ Free/Freemium | [teslawraps.design](https://teslawraps.design) |
+| GrokVideo Studio | Independent Grok Imagine text/image-to-video | ✅ Free Trial | [grokvideogenerator.dev](https://grokvideogenerator.dev) |
+| **[Alors On Danse Video Maker](https://alorsondansevideo.com)** | One photo → ~5s 9:16 AI dance (Quince Classic / Party Groove). | Paid | Closed | No | No |
+| **[Bad Times AI](https://badtimesai.dev)** | One photo → ~5s 9:16 AI dance (Quince Classic / Party Groove). | Paid | Closed | No | No |
+| **[I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com)** | One photo → ~5s 9:16 AI dance (Quince Classic / Party Groove). | Paid | Closed | No | No |
 
 <a id="audio"></a>
 
