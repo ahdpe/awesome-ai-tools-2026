@@ -46,6 +46,7 @@ These are useful starting points, not universal winners:
 - [Evaluation & Observability (8)](#evaluation)
 - [Image & Design (8)](#image)
 - [Video & Avatars (7)](#video)
+- [Vivify](https://vivify.video/realtime-face-swap) - Real-time AI face swap, try-on, and restyle on webcam video.
 - [Voice, Audio & Music (7)](#audio)
 - [Model APIs & Platforms (9)](#platforms)
 
