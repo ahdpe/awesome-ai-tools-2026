@@ -188,6 +188,8 @@ Text-to-video, video editing, synthetic presenters, and production tools.
 | **[Kling AI](https://klingai.com/)** | Text-to-video and image-to-video generation with consumer-friendly creative controls. | Free tier | Closed | No | Yes |
 | **[HeyGen](https://www.heygen.com/)** | AI avatars, voice translation, and presenter videos for business communication. | Free tier | Closed | No | Yes |
 | **[Synthesia](https://www.synthesia.io/)** | Enterprise avatar videos for training, onboarding, localization, and internal communication. | Paid | Closed | No | Yes |
+| **[Cyanvid](https://cyanvid.com/?utm_source=ahdpe-awesome-ai-tools-2026&utm_medium=directory&utm_campaign=backlinks)** | AI video generator from text or images; credit quotes before generate. | Free tier | Closed | No | No |
+| **[Barz Studio](https://barzvideo.com/?utm_source=ahdpe-awesome-ai-tools-2026&utm_medium=directory&utm_campaign=backlinks)** | Free browser rap lyric video maker; beat-reactive captions, export 9:16 WebM. | Free | Closed | No | No |
 
 <a id="audio"></a>
 
